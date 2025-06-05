@@ -11,7 +11,7 @@ ImagineAlgo is an interactive algorithm visualization platform designed to make 
 
 ### ✨ Live Demo
 
-[Visit ImagineAlgo](https://imaginealgo.vercel.app)
+[Visit ImagineAlgo](https://imagine-algos.vercel.app/)
 
 ## 🎯 Features
 
