@@ -6,6 +6,7 @@ import SortingPage from "./components/SortingPage";
 import SearchingPage from "./components/SearchingPage";
 import SortVisualizer from "./components/SortVisualizer";
 import SearchVisualizer from "./components/SearchVisualizer";
+import TreeTraversalVisualizer from "./components/TreeTraversalVisualizer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/searching" element={<SearchingPage />} />
         <Route path="/sortVisual" element={<SortVisualizer />} />
         <Route path="/searchVisual" element={<SearchVisualizer />} />
+        <Route path="/treeVisual" element={<TreeTraversalVisualizer />} />
       </Routes>
     </Router>
   );

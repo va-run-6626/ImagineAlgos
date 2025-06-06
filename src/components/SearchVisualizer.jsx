@@ -9,6 +9,7 @@ import {
   Zap,
 } from "lucide-react";
 import { useSearchParams } from "react-router-dom";
+import NavBar from "./NavBar";
 
 const SearchVisualizer = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -215,45 +216,8 @@ const SearchVisualizer = () => {
         ></div>
       </div>
 
-      {/* Header */}
-      <header className="relative z-10 flex justify-between items-center p-6 border-b border-green-500/20 bg-black/80 backdrop-blur-sm">
-        <div className="flex items-center space-x-3">
-          <div className="w-8 h-8 bg-gradient-to-r from-green-400 to-cyan-400 rounded-lg flex items-center justify-center">
-            <Terminal size={18} className="text-black" />
-          </div>
-          <h2 className="text-2xl font-bold text-green-400 font-mono tracking-wider">
-            &gt; ImagineAlgo_
-          </h2>
-        </div>
-        <nav className="flex items-center space-x-8">
-          <a
-            href="/"
-            className="text-green-400 hover:text-cyan-400 transition-colors duration-300 font-mono relative group"
-          >
-            ./home
-            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 group-hover:w-full transition-all duration-300"></span>
-          </a>
-          <a
-            href="/sorting"
-            className="text-green-400 hover:text-cyan-400 transition-colors duration-300 font-mono relative group"
-          >
-            ./sorting
-            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 group-hover:w-full transition-all duration-300"></span>
-          </a>
-          <a href="/searching" className="text-cyan-400 font-mono relative">
-            ./searching
-            <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-cyan-400"></span>
-          </a>
-
-          <a
-            href="/searchVisual"
-            className="text-green-400 hover:text-cyan-400 transition-colors duration-300 font-mono relative group"
-          >
-            ./visualizer
-            <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 group-hover:w-full transition-all duration-300"></span>
-          </a>
-        </nav>
-      </header>
+      {/* NavBar */}
+      <NavBar />
 
       {/* Terminal Introduction */}
       <section className="relative z-10 py-8 px-6">
