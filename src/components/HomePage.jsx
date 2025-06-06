@@ -245,7 +245,8 @@ const HomePage = () => {
       <footer className="relative z-10 border-t border-green-500/20 bg-black/80 backdrop-blur-sm p-6">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           <div className="text-gray-400 font-mono text-sm">
-            © 2025 ImagineAlgo | Algorithm Visualization Learning Tool
+            © {new Date().getFullYear()} ImagineAlgo | Algorithm Visualization
+            Learning Tool
           </div>
           <div className="text-green-400 font-mono text-sm">
             <span className="animate-pulse">●</span> Status: Online
