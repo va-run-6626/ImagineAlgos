@@ -385,7 +385,7 @@ const AboutPage = () => {
             <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
               {makers.map((maker, index) => (
                 <div key={index} className="group relative">
-                  <div className="bg-gray-900/50 border border-green-500/20 rounded-lg p-8 hover:border-cyan-500/50 transition-all duration-300 transform hover:scale-105 backdrop-blur-sm">
+                  <div className="bg-gray-900/50 border border-green-500/20 rounded-lg p-8 hover:border-cyan-500/50 transition-all duration-300 transform hover:scale-103 backdrop-blur-sm">
                     {/* Profile Header */}
                     <div className="flex items-center mb-6">
                       <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-cyan-500 rounded-full flex items-center justify-center mr-4 group-hover:rotate-12 transition-transform duration-300">
